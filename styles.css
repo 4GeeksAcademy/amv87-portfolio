@@ -1,0 +1,132 @@
+
+body {
+    font-family: Roboto, sans-serif;
+}
+h1, h2 {
+    font-weight: 500;
+    color: rgb(30, 65, 112);
+}
+.hello, .descrip, .skills, .facts {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.hello {
+    padding-bottom: 20px;
+}
+.skills {
+    background-color: rgb(246, 248, 254);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.hello-lists {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.hello-lists ul {
+    margin: auto;
+}
+.hello-lists ul li {
+    padding: 10px;
+    list-style-type: none;
+}
+.hello-pic {
+    display: flex;
+    padding-bottom: 50px;
+}
+.img-block {
+    width: 40%;
+}
+.hello-desc {
+    width: 60%;
+    margin-left: 20px;
+}
+.hello-desc h2 {
+    margin-top: 0px;
+}
+.img-block img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.hello-desc i {
+    color: rgb(100, 156, 239);
+}
+hr {
+    border-top: 3px solid rgb(100, 156, 239);
+    max-width: 60px;
+    text-align: left;
+    margin-left: 0;
+}
+
+.skills {
+    margin-left: -12px;
+    margin-left: -12px;
+}
+.progressBar {
+    display: flex;
+    margin-top: 50px;
+}
+.progressLeft {
+    width: 50%;
+    margin-right: 10px;
+}
+.progressRight {
+    width: 50%;
+    margin-left: 10px;
+}
+.pgbar {
+    margin-bottom: 20px;
+}
+.pgbar label {
+    margin-bottom: 10px;
+}
+.pgbar progress {
+    width: 100%;
+    height: 30px;
+    
+}
+.pgbar progress::-webkit-progress-value {
+    background-color: rgb(100, 156, 239);
+    border-radius: 10px;
+    
+}
+.pgbar progress::-webkit-progress-bar {
+    border-radius: 10px;
+    background-color: lightgray;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+
+.facts {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.facts-icons {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+}
+.fact {
+    display: flex;
+    width: 25%;
+    justify-content: center;
+
+}
+.fact-icon {
+    color: rgb(100, 156, 239);
+    margin-right: 10px;
+}
+.fact-icon i {
+    font-size: 60px;
+}
+.fact-number{
+    color: rgb(100, 156, 239);
+    font-size: 50px;
+    font-weight: 700;
+    margin: 0;
+}
+.fact-content {
+    width: 200px;
+}
